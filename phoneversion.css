@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'TT Lakesb';
-  src: url('fonts/TTLakes-Bold.w');
+  src: url('fonts/TTLakes-Bold.woff');
   font-weight: bold;
   font-style: normal;
 }
@@ -368,7 +368,6 @@ background-repeat: no-repeat;
     display: none;
   }
   .h-nav_button_submitapplication{
-    display: block;
     align-items: center;
     justify-content: center;
     width: 40px;
@@ -379,7 +378,6 @@ background-repeat: no-repeat;
     
     }
     .h-nav_button_statys{
-      display: block;
       align-items: center;
       justify-content: center;
       width: 40px;
