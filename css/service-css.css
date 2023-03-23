@@ -1,0 +1,179 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button,
+a,
+ul,
+input {
+	margin: 0;
+	padding: 0;
+	border: none;
+	background: none;
+	position: relative;
+	list-style: none;
+	text-decoration: none;
+	font: inherit;
+	cursor: pointer;
+	color: inherit;
+}
+@font-face {
+  font-family: 'TT Lakesb';
+  src: url('/github-pages/fonts/TTLakes-Bold.woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TT Lakesr';
+  src: url('/github-pages/fonts/TTLakes-Regular.woff');
+ 
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TT Lakesl';
+  src: url('/github-pages/fonts/TTLakes-Light.woff');
+  
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TT Lakesd';
+  src: url('/github-pages/fonts/TTLakes-DemiBold.woff');
+
+  font-weight: 600;
+  font-style: normal;
+}
+:root{
+  --index: calc(1vw + 1vh);
+}
+.body{
+width: 320px;
+background-color: #F8F8F8;
+}
+.header{
+background-color: white;
+height: 80px;
+width: 800px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+.header-title{
+  color: #717176;
+  font-family: 'TT Lakesr', serif;
+  margin: 16px;
+}
+
+.content__part{
+  display: flex;
+  border: 1px  solid #EAEAEA;
+  height: 72px;
+  margin-top: 16px;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+}
+.content__button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #FF3E79;
+  position: relative;
+  top: 30px;
+  left: 80px;
+}
+.content__button:active{
+  box-shadow: 0 0 5px 0 #007AFF;
+}
+.content__img{
+  position: relative;
+  top: 22px;
+  left: 16px;
+}
+.swiper-pagination{
+  position: relative;
+margin-top: 10px;
+
+}
+.swiper {
+  width: 90%;
+  height: 70%;
+ 
+}
+.button__showmore{
+  display: none;
+}
+#content div:not(:nth-child(-n+6)) {
+  display: none;
+}
+@media (min-width: 800px) and (max-width: 1400px)  {
+  .swiper-pagination{
+    display: none;
+  }
+  
+  .swiper-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    gap: 16px;
+   
+  }
+  .body{
+    width: 1250px;
+    background-color: #F8F8F8;
+    }
+    .header{
+     height: 80px;
+     width: 1400px;
+    justify-content: flex-start;
+    }
+    .content__part{
+      width: 250px;
+    }
+    .button__showmore{
+      display: block;
+      margin: 16px;
+      background-image: url("/github-pages/img/reter.svg");
+      background-repeat: no-repeat;
+      background-position: left;
+      padding-left: 16px;
+    }
+ 
+ 
+  }
+  @media (min-width: 1400px)  {
+    .swiper-pagination{
+      display: none;
+    }
+    
+    .swiper-wrapper{
+      display: grid;
+      grid-template-columns: repeat(3, 250px);
+      gap: 16px;
+     
+    }
+    .body{
+      width: 2500px;
+      background-color: #F8F8F8;
+      }
+      .header{
+       height: 80px;
+       width: 2500px;
+      justify-content: flex-start;
+      }
+      .content__part{
+        width: 250px;
+      }
+      .button__showmore{
+        display: block;
+        margin: 16px;
+        background-image: url("/github-pages/img/reter.svg");
+        background-repeat: no-repeat;
+        background-position: left;
+        padding-left: 16px;
+      }
+   
+  }

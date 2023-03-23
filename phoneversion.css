@@ -25,19 +25,34 @@
   font-weight: 600;
   font-style: normal;
 }
-
-p{
-  padding: 0;
-  margin: 0;
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+button,
+a,
+ul,
+input {
+	margin: 0;
+	padding: 0;
+	border: none;
+	background: none;
+	position: relative;
+	list-style: none;
+	text-decoration: none;
+	font: inherit;
+	cursor: pointer;
+	color: inherit;
 }
 body{
   font-family: 'TT Lakes', sans-serif;
 background: #F8F8F8;
 margin: 0;
 }
-a {
-  text-decoration: none; 
- }
 .header{
   display: flex;
   align-items: center;
@@ -47,17 +62,10 @@ a {
   width: auto;
  
 }
-button{
-  border: 0;
-  font-family: 'TT Lakesl', sans-serif;
-  cursor: pointer;
-}
 button:hover{
   box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.25);
 }
-.seaction_content{
-  margin: 0;
-}
+
 .seaction_content-style{
   margin-left: 16px;
   margin-right: 16px;
@@ -67,29 +75,27 @@ button:hover{
   overflow: hidden;
   max-height: 80px;
 }
-.b-main-seaction_headmain_candlestick{
-  display: flex;
-  padding-top: 16px;
-  padding-bottom: 0;
-}
-.title{
-  display: flex;
-  margin: 0;
-  font-size: 28px;
+
+.main__heading{
   font-family: 'TT Lakesb', sans-serif;
-  
-  
+  gap: 16px;
+  padding-top: 16px;
+  box-sizing: border-box;
+  display: flex;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: -0.6px;
+  position: relative;
+  text-align: center;
 }
-.title::before {
+.main__heading::before {
   content: "";
   width: 5px;
-  height: 100%;
+  height: 40px;
   border-radius: 0px 50px 50px 0px;
   background: #41f6d7;
-  margin-right: 10px;
+
 }
-
-
 
 .header-nav_button_submitapplication{
 display: flex;
@@ -113,7 +119,6 @@ border-radius: 20px;
 margin-right: 25px;
 margin-left: 16px;
 }
-
 .header-nav_button_statys{
 display: flex;
 align-items: center;
@@ -131,7 +136,6 @@ margin-right: 16px;
   height: 51px;
   background-repeat: no-repeat;
   margin-right: auto;
-  
 }
 .header-nav_logoname::before{
 content: "";
@@ -139,14 +143,11 @@ border-right: 5px solid #EAEAEA;
 width: 5px;
 height: 50px;
 position: absolute;
-left: 62px;
+left: -15px;
 }
-
 .nav_scroll{
 display: flex;
 margin-left: 16px;
-margin-top: 0;
-
 }
 .b-main-article-button_page{
   font-size: 16px;
@@ -171,10 +172,9 @@ margin-top: 0;
   padding-right: 16px;
   font-size: 14px;
   font-family: 'TT Lakesd', sans-serif;
-  margin-top: 0;
 }
-.seaction_readmore-button{
-   background-color: #F8F8F8; 
+.seaction_readmore-button:hover{
+   box-shadow: none;
 }
 .seaction_readmore-img{
 padding-right: 16px;
@@ -194,7 +194,8 @@ padding-right: 16px;
 .nav_scroll-list{
   display: flex;
   padding: 12px;
-  overflow-x: auto;
+  overflow-x: scroll;
+
   scrollbar-width: none;
   align-items: center;
   list-style-type: none;
@@ -215,7 +216,6 @@ padding-right: 16px;
     border-right: 5px solid #EAEAEA;
     width: 5px;
     height: 50px;
-   
     }
   .header-nav_logoname::before{
     content: "";
@@ -223,7 +223,7 @@ padding-right: 16px;
     width: 5px;
     height: 50px;
     position: absolute;
-    left: 71px;
+    left: -13px;
     }
   .header-nav_button_for_pk-version-telefon{
     display: flex;
@@ -301,12 +301,9 @@ padding-right: 16px;
         background-repeat: no-repeat;
       }
    
-  .title{
-    
+  .main__heading{
     font-size: 28px;
     font-family: 'TT Lakesb', sans-serif;
-    margin-top: 24px;
-    margin-bottom: 0;
   }
 
   .header{
@@ -329,7 +326,6 @@ padding-right: 16px;
     font-size: 16px;
     line-height: 24px;
     color: #7E7E82;
-    height: 40px;
     white-space: pre;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -351,21 +347,25 @@ padding-right: 16px;
     margin-top: 0;
     margin-right: 15px;
     border-radius: 5px;
-    width: 360px;
-    height: 220px;
     }
-    .seaction{
+    .section{
       display: flex;
       margin: 20px;
       margin-top: 0;
       align-items: flex-start;
       }
-      .seaction_content-style{
+      .section_content-style{
         max-height: 150px;
         overflow: hidden;
       }
 }
 @media (min-width: 1120px){
+  
+  body{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
   .header{
     display: none;
   }
@@ -376,16 +376,12 @@ padding-right: 16px;
     padding-top: 0;
     font-size: 28px;
   }
-  p{
-    margin-top: 0;
-  }
+  
   .seaction_img{
     display: inline;
-    margin-right: 0;
     border-radius: 5px;
     height: 350px;
     width: 550px;
-    margin-top: 0;
     }
  
   .header-nav_button_submitapplication{
@@ -409,45 +405,34 @@ padding-right: 16px;
       .nav_scroll{
         display: flex;
         margin-left: 16px;
-        margin-top: 0;
         overflow-x: hidden;
         font-size: 16px;
         }
-        .seaction{
+        .section{
           display: flex;
           margin: 20px;
-          margin-top: 0;
           align-items: flex-start;
           }
-        
-         
             .b-main-seaction-p_information-televisor{
               display: block;
               margin-left: 16px;
               margin-right: 16px;
               font-size: 14px;
               font-family: 'TT Lakesr', sans-serif;
-              margin-top: 0;
             }
-          
-           
             .televizor{
               display: flex;
               margin-left: auto;
-             align-items: center;
-             
-              
+             align-items: center; 
             }
-            .b-main-seaction_headmain{
+            .section_headmain{
               display: flex;
-              margin: 0;
               margin-right: 25px;
             }
            
             .main-seaction-televizor-infoaboutbutton{
               font-size: 16px;
               font-family: 'TT Lakesd', sans-serif;
-              
             }
             .seaction_content-style{
               max-height: 240px;
@@ -556,7 +541,7 @@ margin: 24px;
 	color: #7E7E82;
 }
 .footer_listradio label:hover {
-	color: #FF3E79;
+  color: #FF3E79;
 }
 .nav-link{
   color: black;
@@ -565,7 +550,6 @@ margin: 24px;
   filter: opacity(50%);
   color: black;
   display: flex;
- 
 }
 .nav_list{
   display: flex;
