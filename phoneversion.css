@@ -524,7 +524,7 @@ padding-right: 16px;
 .list-link{
   color: black;
 }
-.scrollmenu-list{
+.nav-list{
   display: flex;
   flex-direction: column;
  padding: 0;
