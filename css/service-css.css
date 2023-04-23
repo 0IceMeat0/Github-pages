@@ -105,7 +105,8 @@ margin-top: 10px;
  
 }
 .button__showmore{
-  display: none;
+display: none;
+font-family: 'TT Lakesd', sans-serif;
 }
 #content div:not(:nth-child(-n+6)) {
   display: none;
