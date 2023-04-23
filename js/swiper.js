@@ -15,13 +15,13 @@ showMoreBtn.addEventListener('click', () => {
     content.querySelectorAll('div:not(:nth-child(-n+6))').forEach((div) => {
       div.style.display = 'block';
     });
-    showMoreBtn.innerText = 'Показать больше';
+    showMoreBtn.innerText = 'Убрать';
     showingMore = true;
   } else {
     content.querySelectorAll('div:not(:nth-child(-n+6))').forEach((div) => {
       div.style.display = 'none';
     });
-    showMoreBtn.innerText = 'Убрать';
+    showMoreBtn.innerText = 'Показать все';
     showingMore = false;
   }
 });
