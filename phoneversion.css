@@ -291,7 +291,7 @@ padding-right: 16px;
       background: #FF3E79;
       border-radius: 20px;
       }
-  .header-nav_logoname{
+  .header__logoname{
    width: 96px;
    order: 3;
    height: 51px;
