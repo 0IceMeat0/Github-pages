@@ -440,7 +440,7 @@ padding-right: 16px;
   background: #FFFFFF;
   box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.5);
 }
-.header__buttonclose{
+.header-menu__buttonclose{
   display: flex;
   margin-left: 16px;
   align-items: center;
@@ -451,7 +451,7 @@ padding-right: 16px;
   background: #FF3E79;
   border-radius: 20px;
 }
-.header__logoname{
+.header-menu__logoname{
   width: 96px;
   height: 51px;
   background-repeat: no-repeat;
@@ -464,7 +464,7 @@ padding-right: 16px;
   height: 88px;
   width: auto;
 }
-.header__buttonreseach{
+.header-menu__buttonreseach{
   display: flex;
   margin-right: 10px;
   align-items: center;
