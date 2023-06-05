@@ -1,0 +1,22 @@
+body{
+  font-family: 'TT Lakes', sans-serif;
+  background: #F8F8F8;
+  margin: 0;
+}
+$buttonpink: #FF3E79;
+$blucolor: #41f6d7;
+
+@import './fonts.scss';
+@import './basesettings.scss';
+@import './aside-menu.scss';
+@import './head.scss';
+@import './content-head.scss';
+@import './cards.scss';
+@import './card.scss';
+@import './swiper.scss';
+@import './card-header.scss';
+@import './brand-button.scss';
+@import './nav-scroll.scss';
+@import './about.scss';
+@import './content-block.scss';
+@import './footer.scss';

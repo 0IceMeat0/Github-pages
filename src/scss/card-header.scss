@@ -1,0 +1,16 @@
+.card-header{
+background-color: white;
+height: 80px;
+border-bottom: solid 1px $blucolor;
+max-width: 100vw;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+margin-bottom: 16px;
+&__title{
+  color: #717176;
+  font-family: 'TT Lakesr', sans-serif;
+  margin: 16px;
+  
+}
+}

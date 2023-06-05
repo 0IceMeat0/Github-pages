@@ -1,0 +1,67 @@
+.about{
+  display: flex;
+  flex-direction: column;
+  @media (min-width: 768px) { 
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  margin-top: 0;
+  align-items: flex-start;
+  }
+  &__style{
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    font-family: 'TT Lakesr', sans-serif;
+    overflow: hidden;
+    max-height: 320px;
+  }
+  &__text{
+    margin: 16px;
+    text-indent: 30px;
+    text-align: justify;
+    overflow: hidden;
+    height: 120px;
+    line-height: 24px;
+    font-size: 16px;
+  }
+    &-button{
+      display: flex;
+      margin-left: 24px;
+      padding-right: 16px;
+      font-size: 16px;
+      font-weight: 600;
+      font-family: 'TT Lakesd', sans-serif;
+      .seaction_readmore-button:hover{
+        box-shadow: none;
+     }
+     &__img{
+     width: 15px;
+     height: 15px;
+     }
+     &__text{
+      padding-left: 10px;
+     }
+    }
+    .content__img{
+      justify-content: center;
+      align-self: center;
+      width: 80%;
+      margin-top: 10px;
+
+      
+     @media (min-width: 768px){
+        margin-top: 17px;
+        margin-left: 15px;
+        justify-content: flex-start;
+      align-self: flex-start;
+        } 
+        @media (min-width: 1120px){
+          margin-left: 0;
+        }
+    }
+  } 
+    .about123{
+    height: max-content;
+    }

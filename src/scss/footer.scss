@@ -1,0 +1,37 @@
+.footer__text{
+font-size: 18px;
+line-height: 20px;
+margin: 16px;
+text-align: left;
+}
+.footer__link{
+  font-size: 16px;
+  font-family: 'TT Lakesb', sans-serif;
+  margin: 16px;
+  &-img{
+    margin-left: 5px;
+  }
+}
+.footer-name{
+ 
+  margin: 16px;
+  margin-top: 57px;
+  color: #7E7E82;
+  font-size: 14px;
+  @media (max-width: 768px){
+    &__text{
+    text-align: center;
+    }
+  }
+  @media (min-width: 768px){
+    &{
+    display: flex;
+    &__text{
+   padding-right: 55px;
+   &:last-child{
+    padding-right: 0;
+   }
+    }
+    }
+  }
+}

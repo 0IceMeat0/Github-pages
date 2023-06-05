@@ -1,0 +1,38 @@
+.nav-scroll{
+  display: flex;
+  margin-left: 16px;
+  font-size: 16px;
+  overflow-x: hidden;
+  margin-top: 0;
+
+  .scroll-list{
+    display: flex;
+    padding: 12px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    align-items: center;
+    list-style-type: none;
+    font-family: 'TT Lakesr', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    @media (min-width: 768px)  { 
+      overflow-x: hidden;
+    }
+    &__links{
+      font-size: 16px;
+      line-height: 24px;
+      color: #7E7E82;
+      height: 40px;
+      white-space: pre;
+      padding: 12px;
+      margin-right: auto;
+      background: #F8F8F8;
+      border: 2px solid #F8F8F8;
+      &:hover{
+        background: #FFFFFF;
+        border: 2px solid $blucolor;
+        border-radius: 6px;
+      }
+  }
+  }
+  }

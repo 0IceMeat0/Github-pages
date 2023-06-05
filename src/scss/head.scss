@@ -1,0 +1,132 @@
+.head{
+  display: flex;
+  align-items: center;
+  margin: 0;
+  background: #FFFFFF;
+  height: 88px;
+  width: auto;
+  border-bottom: solid 1px $blucolor;
+  @media (min-width: 1120px){
+    display: none;
+  }
+  &-button__additions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #FF3E79;
+    border-radius: 20px;
+    margin-right: 25px;
+    margin-left: 16px;
+
+    @media (min-width: 768px) and (max-width: 1120px) {
+    order: 1;
+    align-items: center;
+    margin-right: auto;
+    margin: 24px;
+    }
+    }
+
+    &__logoname{
+      display: flex;
+      width: 96px;
+      height: 51px;
+      background-repeat: no-repeat;
+      margin-right: auto;
+
+     &::before{
+    content: "";
+    border-right: 3px solid #EAEAEA;
+    width: 5px;
+    height: 50px;
+    position: absolute;
+    left: -15px;
+    }
+    @media (min-width: 768px) and (max-width: 1120px) {
+      order: 3;
+    }
+  }
+  &-button__submitapplication{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #FF3E79;
+    border-radius: 20px;
+    @media (min-width: 768px) and (max-width: 1120px) {
+      order: 4;
+    }
+    @media (min-width: 1120px){
+      margin-right: 9px;
+    }
+    }
+    &-button__statys{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      background: #FF3E79;
+      border-radius: 20px;
+      margin-left: 16px;
+      margin-right: 16px;
+      @media (min-width: 768px) and (max-width: 1120px) {
+        order: 5;
+      }
+      @media (min-width: 1120px){
+        margin-left: 0;
+      }
+      }
+      &-forpkversion{
+        display: none;
+        @media (min-width: 768px) and (max-width: 1120px) { 
+            display: flex;
+            order: 3;
+            margin-left: auto;
+            align-items: center;
+            &::after{ 
+              content: "";
+              border-right: 3px solid #EAEAEA;
+              width: 5px;
+              height: 50px;
+              position: relative;
+              right: 9px;
+              }
+          }
+          .head-button__telefon{
+            display: flex;
+            margin-right: 16px;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            margin-left: auto;
+            background: #FF3E79;
+            border-radius: 20px;
+          }
+          .head-button__messange{
+            display: flex;
+            margin-right: 16px;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            margin-left: auto;
+            background: #FF3E79;
+            border-radius: 20px;
+          }
+          .head-button__profile{
+            display: flex;
+            margin-right: 16px;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            margin-left: auto;
+            background: #FF3E79;
+            border-radius: 20px;
+          }
+      }
+}

@@ -1,0 +1,40 @@
+.content-head{
+  display: flex;
+  margin-right: 25px;
+  &__title{
+    font-family: 'TT Lakesb', sans-serif;
+    gap: 16px;
+    padding-top: 16px;
+    box-sizing: border-box;
+    display: flex;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -0.6px;
+    position: relative;
+    text-align: center;
+    &::before {
+    content: "";
+    width: 5px;
+    height: 40px;
+    border-radius: 0px 50px 50px 0px;
+    background: #41f6d7;
+  }
+}
+.content-head__televizor{
+  display: none;
+
+  @media (min-width: 1120px){
+    display: flex;
+    margin-left: auto;
+   align-items: center; 
+  }
+}
+.televizor__infoaboutbutton{
+  font-size: 16px;
+  font-family: 'TT Lakesd', sans-serif;
+  margin-right: 10px;
+}
+
+}
+
+ 
