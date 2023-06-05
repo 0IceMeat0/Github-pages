@@ -34,10 +34,13 @@ margin: 0;
 padding: 0;
 -webkit-box-sizing: border-box;
 box-sizing: border-box;
+<<<<<<< HEAD:src/style/style.css
 }
 :active, :hover, :focus {
   outline: 0;
   outline-offset: 0;
+=======
+>>>>>>> e7b2b488d31f1cb8fc2d7ec2c8df07ae8067da8f:phoneversion.css
 }
 button,
 a,
@@ -53,9 +56,12 @@ text-decoration: none;
 font: inherit;
 cursor: pointer;
 color: inherit;
+<<<<<<< HEAD:src/style/style.css
 }
 :root{
   --index: calc(1vw + 1vh);
+=======
+>>>>>>> e7b2b488d31f1cb8fc2d7ec2c8df07ae8067da8f:phoneversion.css
 }
 body{
   font-family: 'TT Lakes', sans-serif;
@@ -106,7 +112,11 @@ button:hover{
 
 }
 
+<<<<<<< HEAD:src/style/style.css
 .head-button__submitapplication{
+=======
+.header-button__submitapplication{
+>>>>>>> e7b2b488d31f1cb8fc2d7ec2c8df07ae8067da8f:phoneversion.css
 display: flex;
 margin-left: 16px;
 align-items: center;
@@ -117,7 +127,11 @@ background: #FF3E79;
 border-radius: 20px;
 }
 
+<<<<<<< HEAD:src/style/style.css
 .head-button__additions{
+=======
+.header-button__additions{
+>>>>>>> e7b2b488d31f1cb8fc2d7ec2c8df07ae8067da8f:phoneversion.css
 display: flex;
 align-items: center;
 justify-content: center;
@@ -128,7 +142,11 @@ border-radius: 20px;
 margin-right: 25px;
 margin-left: 16px;
 }
+<<<<<<< HEAD:src/style/style.css
 .head-button__statys{
+=======
+.header-button__statys{
+>>>>>>> e7b2b488d31f1cb8fc2d7ec2c8df07ae8067da8f:phoneversion.css
 display: flex;
 align-items: center;
 justify-content: center;
@@ -139,14 +157,22 @@ border-radius: 20px;
 margin-left: 16px;
 margin-right: 16px;
 }
+<<<<<<< HEAD:src/style/style.css
 .head__logoname{
+=======
+.header__logoname{
+>>>>>>> e7b2b488d31f1cb8fc2d7ec2c8df07ae8067da8f:phoneversion.css
   display: flex;
   width: 96px;
   height: 51px;
   background-repeat: no-repeat;
   margin-right: auto;
 }
+<<<<<<< HEAD:src/style/style.css
 .head__logoname::before{
+=======
+.header__logoname::before{
+>>>>>>> e7b2b488d31f1cb8fc2d7ec2c8df07ae8067da8f:phoneversion.css
 content: "";
 border-right: 5px solid #EAEAEA;
 width: 5px;
@@ -197,7 +223,11 @@ margin-left: 16px;
 .seaction_readmore-img{
 padding-right: 16px;
 }
+<<<<<<< HEAD:src/style/style.css
 .content-head__televizor{
+=======
+.televizor{
+>>>>>>> e7b2b488d31f1cb8fc2d7ec2c8df07ae8067da8f:phoneversion.css
   display: none;
 }
 .head-forpkversion{
@@ -209,12 +239,15 @@ padding-right: 16px;
  margin-top: 10px;
 }
 
+<<<<<<< HEAD:src/style/style.css
 .about__text--visible--open{
 display: inline;
 }
 .about__text--visible--close{
 display: none;
 }
+=======
+>>>>>>> e7b2b488d31f1cb8fc2d7ec2c8df07ae8067da8f:phoneversion.css
 
 @media (min-width: 768px) and (max-width: 1120px) { 
   .head-forpkversion{
@@ -238,7 +271,11 @@ display: none;
     position: absolute;
     left: -13px;
     }
+<<<<<<< HEAD:src/style/style.css
   .head-button__telefon{
+=======
+  .header-button__telefon{
+>>>>>>> e7b2b488d31f1cb8fc2d7ec2c8df07ae8067da8f:phoneversion.css
     display: flex;
     margin-right: 16px;
     align-items: center;
@@ -249,7 +286,11 @@ display: none;
     background: #FF3E79;
     border-radius: 20px;
   }
+<<<<<<< HEAD:src/style/style.css
   .head-button__messange{
+=======
+  .header-button__messange{
+>>>>>>> e7b2b488d31f1cb8fc2d7ec2c8df07ae8067da8f:phoneversion.css
     display: flex;
     margin-right: 16px;
     align-items: center;
@@ -260,7 +301,11 @@ display: none;
     background: #FF3E79;
     border-radius: 20px;
   }
+<<<<<<< HEAD:src/style/style.css
   .head-button__profile{
+=======
+  .header-button__profile{
+>>>>>>> e7b2b488d31f1cb8fc2d7ec2c8df07ae8067da8f:phoneversion.css
     display: flex;
     margin-right: 16px;
     align-items: center;
@@ -272,7 +317,11 @@ display: none;
     border-radius: 20px;
   }
   
+<<<<<<< HEAD:src/style/style.css
   .head-button__submitapplication{
+=======
+  .header-button__submitapplication{
+>>>>>>> e7b2b488d31f1cb8fc2d7ec2c8df07ae8067da8f:phoneversion.css
     display: flex;
     order: 4;
     align-items: center;
@@ -294,7 +343,11 @@ display: none;
       border-radius: 20px;
       }
       
+<<<<<<< HEAD:src/style/style.css
       .head-button__statys{
+=======
+      .header-button__statys{
+>>>>>>> e7b2b488d31f1cb8fc2d7ec2c8df07ae8067da8f:phoneversion.css
       display: flex;
       order: 5;
       align-items: center;
@@ -305,18 +358,30 @@ display: none;
       background: #FF3E79;
       border-radius: 20px;
       }
+<<<<<<< HEAD:src/style/style.css
   .head__logoname{
+=======
+  .header__logoname{
+>>>>>>> e7b2b488d31f1cb8fc2d7ec2c8df07ae8067da8f:phoneversion.css
    width: 96px;
    order: 3;
    height: 51px;
    margin-right: auto;
    background-repeat: no-repeat;
   }
+<<<<<<< HEAD:src/style/style.css
   .content-head__title{
     font-size: 28px;
     font-family: 'TT Lakesb', sans-serif;
   }
   .head{
+=======
+  .main__heading{
+    font-size: 28px;
+    font-family: 'TT Lakesb', sans-serif;
+  }
+  .header{
+>>>>>>> e7b2b488d31f1cb8fc2d7ec2c8df07ae8067da8f:phoneversion.css
   display: flex;
   align-items: center;
   background: #FFFFFF;
@@ -376,7 +441,11 @@ display: none;
     height: 350px;
     width: 550px;
     }
+<<<<<<< HEAD:src/style/style.css
   .head-button__submitapplication{
+=======
+  .header-button__submitapplication{
+>>>>>>> e7b2b488d31f1cb8fc2d7ec2c8df07ae8067da8f:phoneversion.css
     align-items: center;
     justify-content: center;
     width: 40px;
@@ -386,7 +455,11 @@ display: none;
     margin-right: 9px;
     
     }
+<<<<<<< HEAD:src/style/style.css
     .head-button__statys{
+=======
+    .header-button__statys{
+>>>>>>> e7b2b488d31f1cb8fc2d7ec2c8df07ae8067da8f:phoneversion.css
       align-items: center;
       justify-content: center;
       width: 40px;
@@ -436,7 +509,14 @@ display: none;
 .menu-main{
   min-height: calc(100vh - 320px);
 }
+<<<<<<< HEAD:src/style/style.css
 .menu{
+=======
+.main-menu{
+  min-height: calc(100vh - 320px);
+}
+.menu-options{
+>>>>>>> e7b2b488d31f1cb8fc2d7ec2c8df07ae8067da8f:phoneversion.css
   width: 320px;
   overflow-y: scroll;
   min-height: 100vh;
@@ -444,7 +524,11 @@ display: none;
   background: #FFFFFF;
   box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.5);
 }
+<<<<<<< HEAD:src/style/style.css
 .menu-header__buttonclose{
+=======
+.header-menu__buttonclose{
+>>>>>>> e7b2b488d31f1cb8fc2d7ec2c8df07ae8067da8f:phoneversion.css
   display: flex;
   margin-left: 16px;
   align-items: center;
@@ -455,20 +539,32 @@ display: none;
   background: #FF3E79;
   border-radius: 20px;
 }
+<<<<<<< HEAD:src/style/style.css
 .menu-header__logoname{
+=======
+.header-menu__logoname{
+>>>>>>> e7b2b488d31f1cb8fc2d7ec2c8df07ae8067da8f:phoneversion.css
   width: 96px;
   height: 51px;
   background-repeat: no-repeat;
   margin-right: auto;
 }
+<<<<<<< HEAD:src/style/style.css
 
 .menu-header{
+=======
+.header-menu{
+>>>>>>> e7b2b488d31f1cb8fc2d7ec2c8df07ae8067da8f:phoneversion.css
   display: flex;
   align-items: center;
   height: 88px;
   width: auto;
 }
+<<<<<<< HEAD:src/style/style.css
 .menu-header__buttonreseach{
+=======
+.header-menu__buttonreseach{
+>>>>>>> e7b2b488d31f1cb8fc2d7ec2c8df07ae8067da8f:phoneversion.css
   display: flex;
   margin-right: 10px;
   align-items: center;
@@ -574,6 +670,7 @@ margin: 24px;
   color: #FF3E79;
 }
 
+<<<<<<< HEAD:src/style/style.css
 /*Цены на услуги - telefon*/
 .contentpk-block{
   display: none;
@@ -773,3 +870,5 @@ color: #FF3E79;
   left: 250px;
 }
 }
+=======
+>>>>>>> e7b2b488d31f1cb8fc2d7ec2c8df07ae8067da8f:phoneversion.css

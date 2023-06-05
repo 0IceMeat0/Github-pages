@@ -104,8 +104,13 @@ margin-top: 10px;
  
 }
 .button__showmore{
+<<<<<<< HEAD:dist/service-css.css
   display: none;
   font-family: 'TT Lakesd', sans-serif;
+=======
+display: none;
+font-family: 'TT Lakesd', sans-serif;
+>>>>>>> e7b2b488d31f1cb8fc2d7ec2c8df07ae8067da8f:css/service-css.css
 }
 #content div:not(:nth-child(-n+6)) {
   display: none;

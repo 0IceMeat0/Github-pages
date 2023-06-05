@@ -4,4 +4,4 @@ Kata Academy
 
 1.4 https://0icemeat0.github.io/github-pages/menu
 
-1.5
+1.5 https://0icemeat0.github.io/github-pages/service
