@@ -13,25 +13,30 @@ text-align: left;
   }
 }
 .footer-name{
- 
-  margin: 16px;
+  display: flex;
+  padding: 32px;
   margin-top: 57px;
   color: #7E7E82;
   font-size: 14px;
   @media (max-width: 768px){
+    flex-direction: column;
     &__text{
     text-align: center;
+   
     }
   }
   @media (min-width: 768px){
-    &{
-    display: flex;
     &__text{
-   padding-right: 55px;
+  
+   padding-right: calc(var(--index) * 15);
    &:last-child{
     padding-right: 0;
+   }
+   &:nth-child(3n-1){
+    align-self: center;
+    justify-content: center;
+   
    }
     }
     }
   }
-}

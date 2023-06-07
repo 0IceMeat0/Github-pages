@@ -785,7 +785,7 @@ header button:hover {
 
 @media (max-width: 770px) {
   .swiper-slide.swiper--width {
-    width: 55%;
+    width: 80%;
   }
 }
 
@@ -806,24 +806,29 @@ header button:hover {
 }
 
 .footer-name {
-  margin: 16px;
+  display: flex;
+  padding: 32px;
   margin-top: 57px;
   color: #7E7E82;
   font-size: 14px;
 }
 @media (max-width: 768px) {
+  .footer-name {
+    flex-direction: column;
+  }
   .footer-name__text {
     text-align: center;
   }
 }
 @media (min-width: 768px) {
-  .footer-name {
-    display: flex;
-  }
   .footer-name__text {
-    padding-right: 55px;
+    padding-right: calc(var(--index) * 15);
   }
   .footer-name__text:last-child {
     padding-right: 0;
+  }
+  .footer-name__text:nth-child(3n-1) {
+    align-self: center;
+    justify-content: center;
   }
 }
