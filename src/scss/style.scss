@@ -2,10 +2,14 @@ body{
   font-family: 'TT Lakes', sans-serif;
   background: #F8F8F8;
   margin: 0;
+  @media (min-width: 1250px) {
+    width: 1650px;
+    margin: auto;
+  }
 }
 $buttonpink: #FF3E79;
 $blucolor: #41f6d7;
-
+@import './modal.scss';
 @import './fonts.scss';
 @import './basesettings.scss';
 @import './aside-menu.scss';
@@ -20,3 +24,4 @@ $blucolor: #41f6d7;
 @import './about.scss';
 @import './content-block.scss';
 @import './footer.scss';
+@import './menu.scss';
